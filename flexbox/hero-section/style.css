@@ -1,0 +1,15 @@
+:root {
+  --blue: #0a0c19;
+  --dark-violet: #1b1938;
+  --violet: #aa5cdb;
+  --white: #fff;
+  --off-white: #dcdcdc;
+  --primary-font: "Inter", sans-serif;
+  --secondary-font: "Lexend Deca", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
