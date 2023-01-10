@@ -1,0 +1,27 @@
+.container {
+  display: grid;
+  grid-template-columns: 100px repeat(4, 1fr);
+  grid-template-rows: 200px 150px 250px 350px;
+  gap: 15px;
+  padding: 15px;
+}
+
+.sidebar {
+  grid-row: 1 / -1;
+}
+
+.header {
+  grid-column: 2 / -1;
+}
+
+.chart-one {
+  grid-column: 2 / 4;
+}
+
+.chart-two {
+  grid-column: 4 / -1;
+}
+
+.overview {
+  grid-column: 2 / 5;
+}
